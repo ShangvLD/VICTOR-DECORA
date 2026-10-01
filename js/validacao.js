@@ -1,4 +1,4 @@
-// VALIDAÇÃO: regras do formulário de contato
+// VALIDAÇÃO DO FORMULÁRIO DE CONTATO: regras do formulário de contato
 
 var regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 var regexTelefone = /^\(?\d{2}\)?\s?9?\d{4}-?\d{4}$/;
