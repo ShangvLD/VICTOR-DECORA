@@ -1,4 +1,4 @@
-// CARRINHO: lógica das compras (não mexe na tela)
+// CARRINHO DE COMPRAS: lógica das compras (não mexe na tela)
 
 var carrinho = carregarCarrinho(); // recupera o que estava salvo
 
