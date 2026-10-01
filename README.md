@@ -1,8 +1,32 @@
 # Victor Decorações
 
-E-commerce completo especializado em **cortinas, persianas e produtos para decoração**, desenvolvido para oferecer uma experiência de compra moderna, intuitiva e semelhante à de grandes marketplaces, como o Mercado Livre.
+Site de uma loja de cortinas, feito como trabalho de faculdade com HTML, CSS e JavaScript puro. É uma Single Page Application: o menu troca as páginas sem recarregar. Tem lista de cortinas, carrinho com total, formulário de contato com validação e carrinho salvo no localStorage.
 
-A plataforma permite que o cliente navegue pelo catálogo, pesquise produtos, aplique filtros, visualize detalhes, escolha variações, adicione produtos ao carrinho, informe o endereço de entrega e conclua sua compra.
+## Como rodar no seu computador
+
+1. Instale o Git (git-scm.com) e use qualquer navegador (Chrome, Edge, Firefox).
+2. Baixe o projeto:
+
+```
+git clone https://github.com/ShangvLD/VICTOR-DECORA.git
+```
+
+3. Abra a pasta `VICTOR-DECORA`.
+4. Dê dois cliques em `html/index.html`. O site abre no navegador. Não precisa instalar nada nem ligar servidor.
+
+## Estrutura de pastas
+
+- `html/` : index.html, a página principal
+- `css/` : style.css, a aparência
+- `js/` : scripts separados (dados, storage, carrinho, validação, páginas e router)
+- `imagens/` : fotos das cortinas
+
+## Versionamento
+
+- **Branches (GitFlow):** `main` tem a versão pronta, `develop` tem o desenvolvimento, `feature/` é pra funcionalidade nova e `hotfix/` é pra correção urgente.
+- **Commits:** seguem o padrão Conventional Commits, como `feat:` (funcionalidade), `fix:` (correção) e `docs:` (documentação).
+- **Versões:** versionamento semântico MAJOR.MINOR.PATCH. A primeira entrega é a `v1.0.0`, e as versões ficam na aba Releases.
+- **Organização:** as tarefas viram issues, agrupadas na milestone "v1.0.0 - Entrega da faculdade", e as mudanças entram nas branches por pull requests.
 
 ---
 
