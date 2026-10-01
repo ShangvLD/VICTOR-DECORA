@@ -1,4 +1,4 @@
-// STORAGE: só este arquivo mexe no localStorage
+// STORAGE SYSTEM: só este arquivo mexe no localStorage
 
 function salvarCarrinho() {
     try {
