@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Decorações</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Victor Decorações</h1>
+        <p>Cortinas para deixar sua casa mais bonita</p>
+    </header>
+
+    <nav id="menu">
+        <a href="#inicio" data-pagina="inicio">Início</a>
+        <a href="#cortinas" data-pagina="cortinas">Cortinas</a>
+        <a href="#carrinho" data-pagina="carrinho">Carrinho (<span id="contador">0</span>)</a>
+        <a href="#contato" data-pagina="contato">Contato</a>
+    </nav>
+
+    <!-- O conteúdo de cada página é colocado aqui pelo JavaScript -->
+    <main id="conteudo"></main>
+
+    <footer>
+        <p>Victor Decorações - Trabalho de faculdade</p>
+    </footer>
+
+    <!-- A ordem importa: quem não depende de ninguém vem primeiro -->
+    <script src="../js/dados.js"></script>
+    <script src="../js/storage.js"></script>
+    <script src="../js/carrinho.js"></script>
+    <script src="../js/validacao.js"></script>
+    <script src="../js/paginas.js"></script>
+    <script src="../js/router.js"></script>
+</body>
+</html>

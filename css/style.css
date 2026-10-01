@@ -1,0 +1,220 @@
+/* Cores do site (paleta branca) */
+/* branco: #ffffff | cinza claro: #f2f2f2 | cinza borda: #dddddd | cinza escuro: #333333 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h2 {
+    margin: 20px 0;
+}
+
+/* Lista de produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto {
+    width: 300px;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #f2f2f2; /* aparece se a foto ainda nao existir */
+}
+
+.produto h3 {
+    margin: 10px 0 5px 0;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #666666;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Botoes de quantidade */
+.quantidade {
+    margin-bottom: 10px;
+}
+
+.quantidade button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.quantidade input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.adicionar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333333;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.adicionar:hover {
+    background-color: #555555;
+}
+
+/* Carrinho */
+.carrinho {
+    margin-top: 40px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    background-color: #f2f2f2;
+}
+
+.carrinho ul {
+    list-style: none;
+}
+
+.carrinho li {
+    padding: 8px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.carrinho li button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.total {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#limpar {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dddddd;
+    font-size: 14px;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.ativo {
+    font-weight: bold;
+    border-bottom: 2px solid #333333;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+/* Formulário de contato */
+form {
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+
+form input.erro {
+    border: 2px solid #cc0000;
+}
+
+form input.ok {
+    border: 2px solid #2e8b57;
+}
+
+.mensagem {
+    display: block;
+    min-height: 18px;
+    font-size: 13px;
+    color: #cc0000;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid #333333;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sucesso {
+    color: #2e8b57;
+    font-weight: bold;
+}
